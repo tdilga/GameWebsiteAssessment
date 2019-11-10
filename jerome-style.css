@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  
+}
+
+/* Style the header */
+.banner {
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: black;
+  width: 100%;
+}
+
+/* Style the topnav links */
+.topnav a {
+  display: block;
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 50px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 25%;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color:  #1D2C3C;
+  color: white;
+}
+/*Change color on active*/
+topnav a:active {
+  background-color: light green;
+  color: white;
+}
+
+.activeindex {
+	background-color:#1D2C3C;
+}
+.activegreen{
+    background-color:#33a532;
+}
+.activeyellow{
+}
+.activered{
+}
+
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 70%;
+  padding: 15px;
+  background-color:white;
+   /* background-image: url("Images/Jerome-1.jpg"); */
+    
+}
+.leftcolumn {
+  float: left;
+  width: 15%;
+  padding: 15px;
+  background-color:white;
+}
+
+.adcolumn {
+  float: left;
+  width: 15%;
+  padding: 15px;
+  background-color:white;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/* Style the footer */
+.footer {
+  background-color: black;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	text-align: center;
+}
+
+.dark {
+	background-color:#696969;
+	width: 100%;
+	color: white;
+}
+.light{
+	background-color: white;
+	width: 100%;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

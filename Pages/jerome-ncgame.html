@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!-- Coding Lanugage in HTML5-->
+<html lang="en"> 
+<!-- using English-->
+<head> 
+<!-- Tells the browser information the page, 
+such as the title, links to stylesheet and 
+eventually JavaScript -->
+<title>Jerome Gaming</title>
+<!--Page title which appears in browser tab-->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- this make the site responsive.The site will
+respond - change- to different screen screen sizes-->
+
+<link rel="stylesheet" type="text/css" href="../jerome-style.css">
+<!--links the page to a stylesheet. Stylesheets
+the site. Easier to access, can change the sites 
+style at one location. Reduces need to repeat 
+coding. Less coding smaller file sizes easier 
+to download.-->
+
+</head>
+
+<body> <!-- the main part of the website. It is 
+everything you can see-->
+
+<div class="banner"> <!-- div tag is box / container
+ which is the whole width of the page-->
+  <img src="../Images/banner.jpg" size="100%" alt="Jerome Gaming Banner">
+  <!--Heading One - the largest default Heading-->
+</div>
+
+<div class="topnav">
+<!-- Every Div tag should have it's own class
+this helps with understanding what the div tag 
+is for and styling-->
+  <a href="../jerome-index.html" >Index</a> <!-- this is a link to another page-->
+  <a href="jerome-ncgame.html" class="activegreen">Noughts & Crosses</a>
+  <a href="Pages/Characters.html">Game 2</a>
+  <a href="Pages/Characters.html">Game 3</a>
+</div>
+
+<div class="row"> <!-- this div tag contains 
+the columns-->
+
+  <div class="leftcolumn">
+    <a href="Pages/pong.html" > <img src="../Images/pong.jpg" width="100%" /></a>
+    <p>Lorem ipsum dolor sit amet, consecrus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+	<img src="../Images/jerome-2.jpg" width="100%"/>
+	<script>
+			function freePhone(phone) {
+				alert(phone.innerText);
+			}
+		</script>
+		<div onclick="freePhone(this)">What can you say? I mean its a free iphone</div>
+      
+  </div>
+  
+  <div class="column">
+    <h2>Play Noughts and Crosses!</h2>
+    <p> In the game of Snake, the player uses the arrow keys to move a "snake" around the board. As the snake finds food, it eats the food, and thereby grows larger. The game ends when the snake either moves off the screen or moves into itself. The goal is to make the snake as large as possible before that happens.</p>
+   <!-- Okay so this is where the actual game is goin to go ---->
+  </div>
+  
+  <div class="adcolumn">
+	<a href="Pages/snake.html"> <img src="../Images/coin.gif" width="100%"/></a>
+    
+	 <a href="https://www.netflix.com">Get free credit here!</a>
+      <p>Had enough of games? Try <a href="123movies.com"> 123 Movies</a> for more</p>
+	  <a href="snake.html"><img src="../Images/jerome-1.jpg" width="100%"/></a>
+	 
+  </div>
+</div>
+
+<div class="footer">
+  <p>&copy Jerome Gaming 2019</p>
+</div>
+
+</body>
+</html>
